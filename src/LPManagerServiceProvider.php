@@ -1,6 +1,6 @@
 <?php
 
-namespace wolf\lpmanager;
+namespace gaiththewolf\lpmanager;
 
 use Illuminate\Support\ServiceProvider;
 

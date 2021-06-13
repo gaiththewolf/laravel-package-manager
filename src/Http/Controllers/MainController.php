@@ -1,8 +1,8 @@
 <?php
 
-namespace wolf\lpmanager\Http\Controllers;
+namespace gaiththewolf\lpmanager\Http\Controllers;
 use Illuminate\Routing\Controller;
-use wolf\lpmanager\Http\Traits\ComposerReader;
+use gaiththewolf\lpmanager\Http\Traits\ComposerReader;
 
 class MainController extends Controller
 {

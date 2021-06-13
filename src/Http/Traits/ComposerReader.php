@@ -1,6 +1,6 @@
 <?php
 
-namespace wolf\lpmanager\Http\Traits;
+namespace gaiththewolf\lpmanager\Http\Traits;
 
 trait ComposerReader
 {

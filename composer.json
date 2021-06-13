@@ -1,5 +1,5 @@
 {
-    "name": "wolf/laravel-package-manager",
+    "name": "gaiththewolf/laravel-package-manager",
     "description": "laravel-package-manager is a laravel package to manage your project dependencies",
     "keywords": ["tracker", "tracking", "packages", "manager", "package"],
     "type": "library",
@@ -13,13 +13,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "wolf\\lpmanager\\": "/src"
+            "gaiththewolf\\lpmanager\\": "/src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "wolf\\lpmanager\\LPManagerServiceProvider"
+                "gaiththewolf\\lpmanager\\LPManagerServiceProvider"
             ]
         }
     },

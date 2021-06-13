@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use wolf\lpmanager\Http\Controllers\MainController;
+use gaiththewolf\lpmanager\Http\Controllers\MainController;
 
 Route::group(['prefix' => config('lpmanager.route', 'lpmanager')],function () {
         if(config('lpmanager.use_middleware')){
