@@ -1,0 +1,34 @@
+/*# sourceMappingURL=bootstrap.min.css.map */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+.dark-theme,.dark-theme .card,.dark-theme .nav{
+    color: white;
+    background-color:#0d1117;
+}
+.dark-theme .card,.dark-theme .packages-container{
+    border:1px solid rgba(255,255,255,0.1);
+}
+.dark-theme a{
+    color: rgba(255,255,255,0.6);
+}
+
+body ,.card, .nav{
+    transition-duration: 0.5s;
+}
+.theme-toggler{
+    position: fixed;
+    bottom:10px;
+    right:10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border:1px solid rgba(0,0,0,.5);
+    color: orange;
+    background-color:white;
+}
+.is-on-dark{
+    color: white;
+    background-color:#0d1117;
+}

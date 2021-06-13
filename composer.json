@@ -1,0 +1,29 @@
+{
+    "name": "wolf/laravel-package-manager",
+    "description": "laravel-package-manager is a laravel package to manage your project dependencies",
+    "keywords": ["tracker", "tracking", "packages", "manager", "package"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mr.Wolf",
+            "email": "gaiththewolf@gmail.com",
+            "role": "Creator & Designer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "wolf\\lpmanager\\": "/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "wolf\\lpmanager\\LPManagerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {}
+}
